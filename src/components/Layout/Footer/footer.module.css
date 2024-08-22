@@ -1,0 +1,11 @@
+.footer {
+	background-image: url('../../../assets/LOGOHUB.png');
+	padding-top: 120px;
+	padding-bottom: 40px;
+	min-height: 570px;
+	background-repeat: no-repeat;
+	background-position-y: 120px;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}

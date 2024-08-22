@@ -1,0 +1,8 @@
+.offer {
+	margin-top: 120px;
+	margin-bottom: 40px;
+	background-image: url('../../../assets/offerBG.png');
+	min-height: 520px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,52 @@
+.fade-enter {
+	opacity: 0;
+	transform: translateY(10px);
+}
+.fade-enter-active {
+	opacity: 1;
+	transform: translateY(0);
+	transition:
+		opacity 300ms,
+		transform 300ms;
+}
+.fade-exit {
+	opacity: 1;
+	transform: translateY(0);
+}
+.fade-exit-active {
+	opacity: 0;
+	transform: translateY(10px);
+	transition:
+		opacity 300ms,
+		transform 300ms;
+}
+.indicators {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.indicator {
+	flex: 1;
+	height: 10px;
+	background-color: lightgray;
+	margin: 0 5px;
+}
+
+.indicator-active {
+	background-color: gray;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.control-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+}
