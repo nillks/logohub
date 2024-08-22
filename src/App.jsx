@@ -6,6 +6,7 @@ import Product from './components/pages/Product';
 import { BasketProvider } from './context/BasketContext';
 import { FavoriteProvider } from './context/FavoriteContext.jsx';
 import product from './data/allProduct.js';
+import NotFound from "./components/pages/NotFound.jsx";
 
 const theme = createTheme({
 	palette: {
@@ -34,6 +35,7 @@ export default function App() {
 								path='/product/:productLink'
 								element={<Product products={product} />}
 							/>
+							<Route path='*' element={<NotFound />} />
 						</Routes>
 					</BrowserRouter>
 				</FavoriteProvider>
